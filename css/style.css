@@ -1,0 +1,392 @@
+/* body {
+    background: url("../images/background_top.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ sehr wichtig!! font: bold(oder die nummern) 2em/1em Georgia, serif;
+}
+*/
+
+/* Home Section */
+
+html {
+
+    /*font: 600 12px Rajdhani, sans-serif;*/
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+h2{
+padding-top: 0.5em;
+font: 500 1.8em Rajdhani, sans-serif;
+color: rgba(136, 66, 46, 1);
+text-align: center;
+}
+.description {
+    color: white;
+}
+#kontaktfeld{
+background-color: white;
+}
+#whitetext{
+    padding-top: 1em;
+    color: white;
+    margin: 0.5em;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    color: rgba(136,66,46,1);
+    margin: 0.5em 0;
+}
+p {
+    font-size: 1.2em;
+}
+#Philosophie{
+margin: 0;
+
+background: rgb(136,66,46); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(136,66,46,1) 20%, rgba(173,113, 89,1) 50%, rgba(136,66,46,1) 80%); /* FF3.6-15 */  
+background: -webkit-linear-gradient(-45deg, rgba(136,66,46,1) 20%,rgba(173,113, 89,1) 50%,rgba(136,66,46,1) 80%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(136,66,46,1) 20%,rgba(173,113, 89,1) 50%,rgba(136,66,46,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88422e', endColorstr='#8c4733',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+body {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    color: rgba(136, 66, 46, 1);
+}
+
+
+
+.container {
+    padding-top: 3em;
+    margin: 1em 0px;
+    max-width: 1280px;
+    width: 100%;
+}
+.text-center{
+    margin:0;
+    padding: auto;
+}
+
+/*.col-md-10.col-md-offset-1{
+    padding-top: 3em;
+}
+
+
+.container {
+    padding: 0px;
+    margin: 0px;
+    width: 1280px;
+}
+
+.container img {
+    background: cover;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+*/
+
+#intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    font: 300 2em "Rajdhani", sans-serif;
+    font-size: 40pt;
+    color: rgba(136, 66, 46, 1);
+    background: url(../images/background_top.png) no-repeat center center fixed;
+    background-color: #FFF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#kontakt_btn_header{
+    padding-bottom: 1rem;
+    padding-left: 0.35em;
+}
+.header_buttons {
+    width: 100%;
+    align-items: center;
+}
+#intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.intro_text{
+   
+    /*AdobeInvisFont, MyriadPro-Regular;*/
+    color: rgba(136, 66, 46, 255);
+}
+#intro .intro-body H1 {
+    padding: 1em 2em;
+    font-weight: 300;
+    text-transform: initial;
+    color: rgba(133, 66, 44, 1);
+}
+
+#intro .intro-body .brand-heading {
+    color: #E75926;
+    text-shadow: 0 4px #a13e1a;
+}
+
+#intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:768px) {
+    #intro {
+        height: 100%;
+        padding: 0;
+    }
+    #intro .intro-body .intro-text {
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-bottom: 100px;
+        color: rgba(133, 66, 44, 1);
+    }
+}
+#Philosophie{
+height: 702px;
+}
+
+.btn-default {
+    color: rgba(133, 66, 44, 1);
+    background: rgba(133, 66, 44, 1);
+    border: 0;
+    padding: 12px 24px;
+    margin: 0 8px;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active {
+    color: rgba(136, 66, 46, 1);
+    background-color: #a13e1a;
+}
+
+.section-title.center {
+    padding: 30px 0;
+}
+
+.section-title h2,
+.section-title.center h2 {
+    margin-bottom: 30px;
+}
+
+.navbarsExampleDefault {
+    float: right;
+    text-align: right;
+}
+
+.a {
+    float: right;
+    font-family: 'Rajdhani', 300, sans-serif;
+}
+
+.navbar-right {
+    float: right;
+    font-family: 'Rajdhani', 300, sans-serif;
+}
+
+
+
+body {
+    padding-top: 5rem;
+}
+
+nav-item active {
+    color: #dac4bd;
+    float: right;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.nav-item .nav-link {
+
+
+    font-family: Rajdhani, 300, sans-serif;
+}
+
+
+.navbar {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.navbar .navbar-brand {
+    color: #b18375;
+}
+
+.navbar-nav.navbar {
+    flex: 1 1 auto;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #b18375;
+}
+
+.navbar .navbar-text {
+    color: #b18375;
+    float: right;
+    text-align: right;
+}
+
+.navbar .navbar-nav .nav-link {
+
+    float: right;
+    color: #b18375;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #b18375;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #b18375;
+    background-color: #ffffff;
+
+}
+
+.navbar .navbar-toggle {
+    border-color: #ffffff;
+}
+
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #b18375;
+}
+
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #b18375;
+    background-color: #ffffff;
+    float: right;
+}
+
+.navbar .navbar-link {
+    color: #b18375;
+    float: right ! important;
+}
+
+.navbar .navbar-link:hover {
+    color: #b18375;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+
+}
+
+.navbar-toggler {
+
+    background-color: #b18375;
+
+}
+
+#navbar {
+    float: right;
+    text-align: right;
+}
+
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #b18375;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #b18375;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #b18375;
+        background-color: #ffffff;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #b18375;
+        background-color: #ffffff;
+        float: right;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #b18375;
+        background-color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #b18375;
+        background-color: #ffffff;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #b18375;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #b18375;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #b18375;
+        background-color: #ffffff;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #b18375;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #b18375;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #b18375;
+        background-color: #ffffff;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #b18375;
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #b18375;
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #b18375;
+    background-color: #ffffff;
+}
