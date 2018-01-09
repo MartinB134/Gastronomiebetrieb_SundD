@@ -1,107 +1,141 @@
-/* body {
-    background: url("../images/background_top.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
- sehr wichtig!! font: bold(oder die nummern) 2em/1em Georgia, serif;
-}
-*/
-
-/* Home Section */
+/* Home Section - Hauptelemente */
 
 html {
-
     /*font: 600 12px Rajdhani, sans-serif;*/
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 
-h2{
-padding-top: 0.5em;
-font: 500 1.8em Rajdhani, sans-serif;
-color: rgba(136, 66, 46, 1);
-text-align: center;
+body {
+    font-family: "Rajdhani", sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 300;
+    color: rgba(136, 66, 46, 1);
+    padding-top: 4rem;
 }
-.description {
-    color: white;
+
+#container {
+    text-align: center;
+    width: 100%;
 }
-#kontaktfeld{
-background-color: white;
+
+section{
+    width: 1280px;
+    margin-top: 4em;
+    padding: 6em 0;
 }
-#whitetext{
-    padding-top: 1em;
-    color: white;
-    margin: 0.5em;
+
+p {
+    font-size: 1.2em;
 }
+
+/* Überschriften (und Links)*/
+
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     color: rgba(136,66,46,1);
     margin: 0.5em 0;
 }
-p {
-    font-size: 1.2em;
-}
-#Philosophie{
-margin: 0;
-
-background: rgb(136,66,46); /* Old browsers */
-background: -moz-linear-gradient(-45deg, rgba(136,66,46,1) 20%, rgba(173,113, 89,1) 50%, rgba(136,66,46,1) 80%); /* FF3.6-15 */  
-background: -webkit-linear-gradient(-45deg, rgba(136,66,46,1) 20%,rgba(173,113, 89,1) 50%,rgba(136,66,46,1) 80%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, rgba(136,66,46,1) 20%,rgba(173,113, 89,1) 50%,rgba(136,66,46,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88422e', endColorstr='#8c4733',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-
-body {
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 300;
+h2 {
+    font: 600 1.7em Rajdhani, sans-serif;
+    margin-bottom: 70px;
     color: rgba(136, 66, 46, 1);
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+h3.title{
+    font-size: 1em;
+    text-align: left;
+    font: 600 1em Rajdhani, sans-serif;
+}
+
+h4{
+    text-align: left;
+    font-size: 0.7em;
+    color: rgb(177, 131, 117);
+}
+
+{
+
+}
+
+ a {
+    color: rgb(177, 131, 117);
+    text-align: left;
+    font: 600 1em Rajdhani, sans-serif;
+    padding: 0.6em auto;
+}
+
+
+h3.panel-title{
+    background-color: white;
+    text-align: left;
+    margin: 8px 0;
+    padding: 6px;
+    width: 100%;
+    height: 2em;
+    font-size: 1em;
+    text-align: left;
+    font: 600 1em Rajdhani, sans-serif;
+    color: rgb(177, 131, 117);
+    text-align: left;
+    font: 600 1em Rajdhani, sans-serif;
 }
 
 
 
-.container {
-    padding-top: 3em;
-    margin: 1em 0px;
+.active, .accordion:hover {
+    background-color: rgb(177, 131, 117);
+}
+
+
+.panel {
+    margin: 2px 0;
+    padding: 10px 24px;
+    background-color: white;
+    
+}
+
+#accordion{
+
     max-width: 1280px;
     width: 100%;
 }
-.text-center{
-    margin:0;
-    padding: auto;
-}
 
-/*.col-md-10.col-md-offset-1{
-    padding-top: 3em;
+/* Intro Sektion */
+
+.description {
+    color: white;
 }
 
 
-.container {
-    padding: 0px;
-    margin: 0px;
-    width: 1280px;
+#kontaktfeld{
+    background-color: white;
 }
 
-.container img {
-    background: cover;
-    padding: 0px;
-    margin: 0px;
-    max-width: 100%;
-    overflow: hidden;
-    height: auto;
+#whitetext{
+    padding-top: 1em;
+    color: white;
 }
-*/
+h2,#whitetext{
+    padding: 0;
+    margin: 0.4em 0 2em 0;
+}
+#schwarze-schrift{
+    padding 0.5em auto;
+}
 
 #intro {
+    margin-top: 0;
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
     text-align: center;
-    font: 300 2em "Rajdhani", sans-serif;
+    font: 300 2em Rajdhani, sans-serif;
     font-size: 40pt;
     color: rgba(136, 66, 46, 1);
-    background: url(../images/background_top.png) no-repeat center center fixed;
+    background: url(../images/background_top.png) no-repeat center fixed;
     background-color: #FFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -109,7 +143,7 @@ body {
     -o-background-size: cover;
 }
 #kontakt_btn_header{
-    padding-bottom: 1rem;
+    padding-bottom: 128px;
     padding-left: 0.35em;
 }
 .header_buttons {
@@ -120,9 +154,8 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
+
 .intro_text{
-   
-    /*AdobeInvisFont, MyriadPro-Regular;*/
     color: rgba(136, 66, 46, 255);
 }
 #intro .intro-body H1 {
@@ -153,9 +186,109 @@ body {
         color: rgba(133, 66, 44, 1);
     }
 }
-#Philosophie{
-height: 702px;
+
+#kontakt_btn_header : hover{
+
 }
+/* Projektbeschreibung */
+.projekte_beschreibung, .stellenausschreibung{
+    height: 400px;
+    margin: 4px auto;
+    background-color: #f7f7f7;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+}
+#projekte {
+    width: 100%;
+}
+
+h4.title.h3_beschreibung {
+    margin-bottom: 3em;
+     font-size: 1em;
+    text-align: left;
+    font: 600 1em Rajdhani, sans-serif;
+
+}
+
+.prj_btn{
+    float: right;
+    margin-right: 8px;
+}
+
+
+/* Links Stellenausschreibung inaktiv */
+
+
+
+.text-right{
+    text-align: right;
+    overflow: auto;
+    max-width: 50px;
+}
+
+
+/* Sektionen IDs */
+#jobs{
+    background-color: #f7f7f7;
+    width: 100%;
+    margin: 0 0;
+    padding: 13em 0;
+}
+
+#Philosophie{
+    height: 708px;
+    width: 100%;
+    min-width: 1280px;
+    padding-top: 4em;
+    margin: 0 0;
+    background: rgb(136,66,46); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(136,66,46,1) 20%, rgba(173,113, 89,1) 50%, rgba(136,66,46,1) 80%); /* FF3.6-15 */  
+    background: -webkit-linear-gradient(-45deg, rgba(136,66,46,1) 20%,rgba(173,113, 89,1) 50%,rgba(136,66,46,1) 80%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(136,66,46,1) 20%,rgba(173,113, 89,1) 50%,rgba(136,66,46,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88422e', endColorstr='#8c4733',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+/* Colums */
+.col-md-10.col-md-offset-1{
+   margin: 224px auto 30px;
+   width: 1280px;
+}
+.row{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+.row.projekte_beschreibung{
+    margin: 15px auto;
+    width: 100%;
+}
+.col-md-12.col-lg-12{
+ width: 100%;
+ margin-left: 0;
+ margin-right: 0;
+
+}
+.col-lg-5{
+    margin-right: ;
+}
+.col-md-12.col-lg-7 h2{
+    text-align: left;
+    color: rgb(137, 67, 46);
+}
+.col-md-12.col-lg-7 #h2_beschreibung{
+    text-align: left;
+    color: rgb(137, 67, 46);
+}
+.col-md-12.col-lg-7 p{
+    text-align: left;
+    color: #000;
+    height: 90%;
+}
+
+
 
 .btn-default {
     color: rgba(133, 66, 44, 1);
@@ -185,29 +318,19 @@ height: 702px;
     margin-bottom: 30px;
 }
 
+
+/* Navbar-Sektion */
 .navbarsExampleDefault {
     float: right;
     text-align: right;
 }
 
-.a {
-    float: right;
-    font-family: 'Rajdhani', 300, sans-serif;
-}
-
 .navbar-right {
     float: right;
-    font-family: 'Rajdhani', 300, sans-serif;
-}
-
-
-
-body {
-    padding-top: 5rem;
 }
 
 nav-item active {
-    color: #dac4bd;
+    color: rgba(136, 66, 46, 1);
     float: right;
 }
 
@@ -216,9 +339,7 @@ nav-item active {
     text-align: center;
 }
 
-.nav-item .nav-link {
-
-
+.nav-item .nav-link, {
     font-family: Rajdhani, 300, sans-serif;
 }
 
@@ -390,3 +511,26 @@ nav-item active {
     color: #b18375;
     background-color: #ffffff;
 }
+.text-right2{
+    float: right;
+}
+#Kontakt{
+    width: 100%;
+}
+
+#footer {
+    background: #f7f7f7;
+    color: rgba(136,66,46,1);
+    padding-top: 10px!important;
+}
+
+#footer a {
+    color: rgba(136,66,46,1);
+    font-weight: 700;
+}
+
+.small_pad {
+    padding-top: 20px!important;
+}
+
+
