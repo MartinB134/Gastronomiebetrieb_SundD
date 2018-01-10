@@ -59,15 +59,17 @@
 	<div id="container">
 
 	<!-- Header -->
-	<section id="intro">
-	  <div class="intro-body">
+	<section id="intro" id="slider">
+	  <div class="intro-body slider" style="background-position-y: 0px;">
+
+	</div>
 		  <div class="row justify-content-md-center">
 			<div class="col-md-10 col-md-offset-1">
 				<img src="images/Ebene%2029@1X.png" id="Firmenlogo" alt="Firmenlogo von Schatz und Demmig" />
 			  
 				<h1 class="intro_text">Willkommen bei der S&D Gastronomiebetriebs UG<br>Wir freuen uns auf Ihre Anfrage</h1>
 			   <div class="header_buttons">
-				<img id="kontakt_btn_header"src="images/kontakt_btn_header.png" alt="Kontakt_button" />
+				<button id="kontakt_btn_header" alt="Kontakt_button"></button>
 			   <br>
 				<img src="images/scroll_icon.png"  alt="scroll_icon" />
 
@@ -115,7 +117,15 @@
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 								cillum dolore eu fugiat nulla pariatur.</p>
-								<div class="prj_btn"><img src="images/projekte_button.png"></div>
+								</div>
+								<div class="row">
+									<div class="col-md-11 col-lg-11">
+									</div>
+									<div class="col-md-1 col-lg-1"> 
+									<button id="prj_btn"></button>
+									</div>
+								
+
 							</div>
 						</div>
 
@@ -132,7 +142,14 @@
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 								cillum dolore eu fugiat nulla pariatur. </p>
-								<div class="prj_btn"><img src="images/projekte_button.png"></div>
+								</div>
+								<div class="row">
+									<div class="col-md-11 col-lg-11">
+									</div>
+									<div class="col-md-1 col-lg-1"> 
+									<button id="prj_btn"></button>
+									</div>
+								</div>
 							</div>
 						</div>
 					
@@ -152,7 +169,14 @@
 								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 								cillum dolore eu fugiat nulla pariatur.</p>
-								<div class="prj_btn"><img src="images/projekte_button.png"></div>
+								</div>
+								<div class="row">
+									<div class="col-md-11 col-lg-11">
+									</div>
+									<div class="col-md-1 col-lg-1"> 
+									<button id="prj_btn"></button>
+									</div>
+								
 							</div>
 						</div>
 						</div>
@@ -160,9 +184,9 @@
 
 	
 <section id="jobs">
-  <div class="row justify-content-md-center stellenausschreibung">
+  <div class="row justify-content-md-center stellenausschreibung"><img src="images/jobs_icon.png"/>
 	<div class="col-md-12 col-lg-12">
-		<img src="images/jobs_icon.png"/>
+		
 		<h2 class="title">Jobs</h2>
 	<div class="panel-group" id="accordion">
 	  <div class="panel panel-default">
@@ -211,7 +235,7 @@
 	  <div class="panel panel-default">
 		<div class="panel-heading">
 		  <h3 class="panel-title">
-			<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+			<a data-toggle="collapse" data-parent="#accordion" href="#collapse">
 			Stellenausschreibung (4)<div class="navbar-right">+</div></a>
 		  </h3>
 		</div>
@@ -244,7 +268,7 @@
 						   Jahnallee 6 / 04109 Leipzig<br>
 						   </p>
 						</div>
-						<div class="col-md-1"><hr style="width:1px; height:50px; margin:2px; float:left"><img src="images/kontakt_btn_footer.png"/></div>
+						<div class="col-md-1" id="trennlinie_kontakte"><img src="images/kontakt_btn_footer.png"/></div>
 						<div class="col-md-5" id="link_rechts">
 						   <p class="text-left">
 						   <a href="tel:+491776220112">0177- 62 20 112 </a><br>
@@ -266,7 +290,7 @@
     	
     	<div class="col-sm-6 small_pad">
     		<p class="nav-link">
-    			<a href="impressum.html">Impressum</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Datenschutz.pdf">Datenschutz</a> 
+    			<a href="impressum.html">Impressum</a><a id="Datenschutz" href="Datenschutz.pdf">Datenschutz</a> 
     		</p>
     	</div>
      </div>

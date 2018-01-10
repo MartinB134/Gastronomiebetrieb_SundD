@@ -56,9 +56,7 @@ h4{
     color: rgb(177, 131, 117);
 }
 
-{
 
-}
 
  a {
     color: rgb(177, 131, 117);
@@ -135,16 +133,41 @@ h2,#whitetext{
     font: 300 2em Rajdhani, sans-serif;
     font-size: 40pt;
     color: rgba(136, 66, 46, 1);
-    background: url(../images/background_top.png) no-repeat center fixed;
+    background: url(../images/background_top.png) no-repeat scroll center top transparent;
     background-color: #FFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
 #kontakt_btn_header{
-    padding-bottom: 128px;
-    padding-left: 0.35em;
+    margin-bottom: 128px;
+    margin-left: 0.35em;
+    background-image: url(../images/kontakt_btn_header.png);
+    background-color: rgba(0,0,0,0);
+    height: 89px;
+    width: 138px;
+    border-style: none;
+}
+
+#kontakt_btn_header{
+    margin-bottom: 128px;
+    margin-left: 0.35em;
+    background-image: url(../images/kontakt_btn_header.png);
+    background-color: rgba(0,0,0,0);
+    height: 89px;
+    width: 138px;
+    border-style: none;
+}
+#kontakt_btn_header:hover{
+    margin-bottom: 128px;
+    margin-left: 0.35em;
+    background-image: url(../images/kontakt_btn_header_active2.png);
+    background-color: rgba(0,0,0,0);
+    height: 89px;
+    width: 138px;
+    border-style: none;
 }
 .header_buttons {
     width: 100%;
@@ -156,7 +179,7 @@ h2,#whitetext{
 }
 
 .intro_text{
-    color: rgba(136, 66, 46, 255);
+    color: rgba(136, 66, 46, 1);
 }
 #intro .intro-body H1 {
     padding: 1em 2em;
@@ -212,11 +235,34 @@ h4.title.h3_beschreibung {
 
 }
 
-.prj_btn{
+prj_btn{
     float: right;
     margin-right: 8px;
 }
 
+#prj_btn {
+    background-image: url(../images/projekte_button.png);
+    height: 50px;  
+    width: 50px;
+    border-radius: 100%;
+    border-style: none;
+    position: absolute;
+    right: 24px;
+    bottom: -15px; 
+}
+
+
+
+#prj_btn:hover {
+    background-image: url(../images/projekte_button_active2.png);
+    height: 50px;  
+    width: 50px;
+    border-radius: 100%;
+    border-style: none;
+    position: absolute;
+    right: 24px;
+    bottom: -15px; 
+}
 
 /* Links Stellenausschreibung inaktiv */
 
@@ -241,7 +287,7 @@ h4.title.h3_beschreibung {
     height: 708px;
     width: 100%;
     min-width: 1280px;
-    padding-top: 4em;
+    padding-top: 10em;
     margin: 0 0;
     background: rgb(136,66,46); /* Old browsers */
     background: -moz-linear-gradient(-45deg, rgba(136,66,46,1) 20%, rgba(173,113, 89,1) 50%, rgba(136,66,46,1) 80%); /* FF3.6-15 */  
@@ -249,6 +295,7 @@ h4.title.h3_beschreibung {
     background: linear-gradient(135deg, rgba(136,66,46,1) 20%,rgba(173,113, 89,1) 50%,rgba(136,66,46,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88422e', endColorstr='#8c4733',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+
 
 
 /* Colums */
@@ -369,17 +416,20 @@ nav-item active {
 }
 
 .navbar .navbar-nav .nav-link {
-
+    transition: color 0.5s;
+    transition: border-bottom 0.5s;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
     float: right;
     color: #b18375;
-    border-radius: .25rem;
     margin: 0 0.25em;
 
 }
 
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
-    color: #b18375;
+    color: #f1837f;
+    border-bottom: 2px solid #b18375;
 }
 
 .navbar .navbar-nav .nav-item.active .nav-link,
@@ -516,12 +566,34 @@ nav-item active {
 }
 #Kontakt{
     width: 100%;
+    height: 628px;
 }
 
 #footer {
     background: #f7f7f7;
-    color: rgba(136,66,46,1);
+    color: #884422;
     padding-top: 10px!important;
+    width: 100%;
+}
+p.nav-link{
+    float: right;
+}
+
+#link_rechts{
+    position: relative;
+    left: -50px;
+
+}
+
+#Datenschutz{
+    padding-left: 3em;
+}
+#trennlinie_kontakte{
+    border-left: 2px solid lightgrey;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    height: 80px;
+    width: 50px;
 }
 
 #footer a {
