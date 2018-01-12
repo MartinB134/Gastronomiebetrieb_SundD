@@ -680,16 +680,31 @@ h4.title.h3_beschreibung {
     color: #b18375;
     background-color: #ffffff;
 }
-.col-md-6.col-xs-12{
-    
+
 }
+
+@media (max-width: 768px){
+    #Kontakt.col-md-6.col-md-6.col-xs-12{
+    text-align: center;
+    display: block;
+    width: 6em;
+    margin: 0 auto;
+}
+.text-right2{
+    float: center;
+    text-align: center;
+}
+}
+
+
 .text-right2{
     float: right;
     text-align: center;
 }
 #Kontakt{
-    height: 628px;
+    
     min-width: 295px;
+    padding: 4em 2em;
 }
 
 #footer {
@@ -708,9 +723,28 @@ p.nav-link{
 }
 
 
+#link_rechts{
+    padding-left: 0.5em;
+}
+
+#link_rechts {
+    padding: 0;
+    margin: 0;
+    max-width: 250px;
+}
+
+#text-right1{
+      display: block;
+    margin: 0 auto;
+    position: relative;
+    
+}
 
 .text-right2.col-xs-11{
     display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 9em;
 }
 
 #Datenschutz{
@@ -718,11 +752,11 @@ p.nav-link{
 }
 #trennlinie_kontakte{
     border-left: 2px solid lightgrey;
-    padding-left: 20px;
-    padding-bottom: 0px;
-    margin-left: 5px;
-    height: 80px;
-    width: 50px;
+    padding-left: 2em;
+    padding-bottom: 0;
+    height: 5em;
+    width: 1em;
+    max-width: 60px;
 }
 
 #footer a {
