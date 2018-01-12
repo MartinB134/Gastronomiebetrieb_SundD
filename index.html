@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="S&D Gastronomiebetrieb in Leipzig">
 		<meta name="author" content="Martin Busse">
 		<link href="https://fonts.googleapis.com/css?family=Rajdhani:300, 400, 500, 600" rel="stylesheet">
@@ -19,14 +19,18 @@
 	<body>
 	<!-- Navigation -->
 		<nav class="navbar navbar-expand-md fixed-top ">
-			<a class="navbar-brand" href="#"><img class="navbar-brand" scr="images/Logo_Header.png"/></a>
 			
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<a id="logo_platzhalter" class="navbar-brand" href="#intro"></a>
+		  <button class="navbar-toggler navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+
 				<span class="navbar-toggler-icon">v</span>
-			</button>
+				<span class="icon-bar"></span>
+          		<span class="icon-bar"></span>
+          		<span class="icon-bar"></span>
+		</button>
 	 <!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-				<img class="navbar-brand" src="images/Logo_Header.png" />
+
 				<div class="container-fluid">
 					
 				<ul class="navbar-nav navbar-right">
@@ -36,7 +40,7 @@
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="#PROJEKTE">PROJEKTE</a>
+						<a class="nav-link" href="#projekte">PROJEKTE</a>
 					</li>
 
 					<li class="nav-item">
@@ -60,18 +64,20 @@
 
 	<!-- Header -->
 	<section id="intro" id="slider">
-	  <div class="intro-body slider" style="background-position-y: 0px;">
-
+	  <div class="intro-body slider"">
+	  	<a id="Logo" class="navbar-brand" href="#intro"><img src="images/Logo_Header.png"/></a>
 	</div>
 		  <div class="row justify-content-md-center">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-10 col-md-offset-1 col-xs-12">
 				<img src="images/Ebene%2029@1X.png" id="Firmenlogo" alt="Firmenlogo von Schatz und Demmig" />
 			  
 				<h1 class="intro_text">Willkommen bei der S&D Gastronomiebetriebs UG<br>Wir freuen uns auf Ihre Anfrage</h1>
 			   <div class="header_buttons">
 				<button id="kontakt_btn_header" alt="Kontakt_button"></button>
-			   <br>
+			     <br>
+			    <a href="#Philosophie" class="scroll_icon">
 				<img src="images/scroll_icon.png"  alt="scroll_icon" />
+				</a>
 
 			  </div>
 			</div>
@@ -98,18 +104,18 @@
 			<section id="projekte">
 				<div class="text-center">
 						<div class="row justify-content-md-center">
-							<div class="col-md-12 col-lg-8">
+							<div class="col-md-12 col-sm-12 col-lg-8">
 								<img src="images/Projekte_icon.png"/>
 								<h2 class="title">PROJEKTE</h2>
 							</div>
 						</div>
 				
-						<div class="row justify-content-md-center projekte_beschreibung">
-							<div class="col-md-12 col-lg-5">
+						<div id="Lortzing_Lpz" class="row justify-content-md-center projekte_beschreibung">
+							<div class="col-md-12 col-sm-12 col-lg-5">
 								<img src="images/lortzing.png"/>
 							</div>
 
-							<div class="col-md-12 col-lg-7">
+							<div class="col-md-12 col-sm-12 col-lg-7">
 								<h3 class="title">Lortzing Leipzig</h3>
 								<h4 class="title h3_beschreibung">Theaterrestaurant & Bar</h4>
 								<p id="schwarze-schrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -129,12 +135,12 @@
 							</div>
 						</div>
 
-						<div class="row justify-content-md-center projekte_beschreibung">
-							<div class="col-md-12 col-lg-5">
+						<div id="Kaffeemusik" class="row justify-content-md-center projekte_beschreibung">
+							<div class="col-md-12 col-sm-12 col-lg-5">
 								<img src="images/Kaffeemusik.png"/>
 							</div>
 
-							  <div class="col-md-12 col-lg-7">
+							  <div class="col-md-12 col-sm-12 col-lg-7">
 								<h3 class="title">Kaffeemusik</h3>
 								<h4 class="title h3_beschreibung">Agentur für Begleitmusik & Konzerte</h4>
 								<p id="schwarze-schrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -151,15 +157,15 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						
 					
 				
-						<div class="row justify-content-md-center projekte_beschreibung">
-							<div class="col-md-12 col-lg-5">
+						<div id="Bohnenschatz" class="row justify-content-md-center projekte_beschreibung">
+							<div class="col-md-12 col-sm-12 col-lg-5">
 								<img src="images/bohnenschatz.png"/>
 							</div>
 
-							  <div class="col-md-12 col-lg-7">
+							  <div class="col-md-12 col-sm-12 col-lg-7">
 								<h3 class="title">Bohnenschatz</h3>
 								<h4 class="title h3_beschreibung">
 									Kaffeerösterei
@@ -180,13 +186,15 @@
 							</div>
 						</div>
 						</div>
+						</div>
 					</section><!-- projekte section -->				
 
 	
 <section id="jobs">
-  <div class="row justify-content-md-center stellenausschreibung"><img src="images/jobs_icon.png"/>
+  <div class="row justify-content-md-center stellenausschreibung ">
+  	<div class="mx-auto">
+  	<img src="images/jobs_icon.png"/></div>
 	<div class="col-md-12 col-lg-12">
-		
 		<h2 class="title">Jobs</h2>
 	<div class="panel-group" id="accordion">
 	  <div class="panel panel-default">
@@ -255,25 +263,30 @@
 	<section id="Kontakt">
 		<div class="text-center">
 			<div class="row justify-content-md-center">
-				<div class="col-md-12 col-lg-12">
+				<div class="col-md-12 col-lg-12 col-xs-12">
 				<img src="images/kontakt_icon.png"/>
 					<h2 class="title">Kontakt</h2>
 				</div>
 			</div></div>
 					<div class="row justify-content-md-center">
+						
+						   <div class="col-md-6 col-xs-12">
+						      <p class="text-right2">
+						      S&D Gastronomiebetriebs UG <br>
+						      c/o Schatz, Demmig<br>
+						      Jahnallee 6 / 04109 Leipzig<br>
+						       
+						      </p> 
+						   </div>
 
-						<div class="col-md-6">
-						   <p class="text-right2">S&D Gastronomiebetriebs UG <br>
-						   c/o Schatz, Demmig<br>
-						   Jahnallee 6 / 04109 Leipzig<br>
-						   </p>
-						</div>
-						<div class="col-md-1" id="trennlinie_kontakte"><img src="images/kontakt_btn_footer.png"/></div>
-						<div class="col-md-5" id="link_rechts">
-						   <p class="text-left">
-						   <a href="tel:+491776220112">0177- 62 20 112 </a><br>
-						   <a href="mailto:info@deine-gastgeber.de">info@deine-gastgeber.de</a><br>
-						   <a href="www.deine-gastgeber.de">www.deine-gastgeber.de</a><br></p>
+						      <div class="col-md-1 col-xs-1" id="trennlinie_kontakte"><img src="images/kontakt_btn_footer.png"/>
+						      </div>
+						   <div class="col-md-5 col-xs-11" id="link_rechts">
+						     <div class="mx-auto"> <p class="text-left">
+						      <a href="tel:+491776220112">0177- 62 20 112</a><br>
+						      <a href="mailto:info@deine-gastgeber.de">info@deine-gastgeber.de</a><br>
+						      <a href="www.deine-gastgeber.de">www.deine-gastgeber.de</a><br></p>
+						   </div>
 						</div>		
 					</div>
 			
@@ -290,7 +303,7 @@
     	
     	<div class="col-sm-6 small_pad">
     		<p class="nav-link">
-    			<a href="impressum.html">Impressum</a><a id="Datenschutz" href="Datenschutz.pdf">Datenschutz</a> 
+    			<a href="impressum.html">Impressum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a id="Datenschutz" href="Datenschutz.pdf">Datenschutz</a> 
     		</p>
     	</div>
      </div>
