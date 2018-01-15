@@ -110,7 +110,6 @@ h3.panel-title{
 }
 
 #accordion{
-
     max-width: 1280px;
     width: 100%;
 }
@@ -386,9 +385,7 @@ h4.title.h3_beschreibung {
  margin-right: 0;
 
 }
-.col-lg-5{
-    margin-right: ;
-}
+
 .col-md-12.col-lg-7 h2{
     text-align: left;
     color: rgb(137, 67, 46);
@@ -701,6 +698,13 @@ h4.title.h3_beschreibung {
     float: right;
     text-align: center;
 }
+@media (max-width: 900px){
+    .text-right2 {
+        float: none;
+    }
+
+}
+
 #Kontakt{
     
     min-width: 295px;
@@ -722,9 +726,13 @@ p.nav-link{
     heigth: 200px;
 }
 
-
 #link_rechts{
     padding-left: 0.5em;
+}
+
+p#link_rechts2 {
+    min-width: 250px;
+    margin-left: 1.5em;
 }
 
 #link_rechts {
@@ -733,8 +741,17 @@ p.nav-link{
     max-width: 250px;
 }
 
+@media (max-width: 768px){
+    #link_rechts{
+    padding: 0;
+    margin: 0;
+    margin-left: 0.5em !important;
+    margin-right: auto!important;
+    min-width: 250px;
+}}
+
 #text-right1{
-      display: block;
+    display: block;
     margin: 0 auto;
     position: relative;
     
@@ -747,11 +764,9 @@ p.nav-link{
     width: 9em;
 }
 
-#Datenschutz{
-    padding-left: 3em;
-}
+
 #trennlinie_kontakte{
-    border-left: 2px solid lightgrey;
+    border-left: 2px solid lightgrey; /*ister 2 here as default*/
     padding-left: 2em;
     padding-bottom: 0;
     height: 5em;
@@ -759,15 +774,55 @@ p.nav-link{
     max-width: 60px;
 }
 
+@media (max-width: 768px){
+    #trennlinie_kontakte{
+        border-right: 2px solid lightgrey; /*ister 2 here as default*/
+        padding-right: 2em;
+        border-left: 2px solid white; /*ister 2 here as default*/
+        padding-right: 3em;
+        padding-bottom: 0;
+        padding-right: 2em;
+        height: 5em;
+        width: 1em;
+        max-width: 60px;
+        margin-left: auto;
+        margin-right: 0px!important;
+        float: right;
+    }
+}
+#Datenschutz{
+    padding-left: 2em;
+}
+
 #footer a {
     color: rgba(136,66,46,1);
     font-weight: 700;
 }
 
-.small_pad {
-    padding-top: 20px!important;
+#footer p.text-left {
+    color: black;
+    padding-top: 0.5em;
+
 }
 
+#impressum{
+    padding-left: 3em;
+}
+
+#impressum h2{
+   text-align: left;
+}
+#Datenschutz h2{
+   text-align: left;
+}
+
+#Datenschutz{
+    padding-left: 3em;
+}
+
+#Datenschutz{
+    text-align: left;
+}
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
