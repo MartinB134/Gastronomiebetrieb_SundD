@@ -106,7 +106,7 @@ h3.panel-title{
     margin: 2px 0;
     padding: 10px 24px;
     background-color: white;
-    
+
 }
 
 #accordion{
@@ -288,26 +288,26 @@ h4.title.h3_beschreibung {
 
 #prj_btn {
     background-image: url(../images/projekte_button.png);
-    height: 50px;  
+    height: 50px;
     width: 50px;
     border-radius: 100%;
     border-style: none;
     position: absolute;
     right: 24px;
-    bottom: -0.8em; 
+    bottom: -0.8em;
     display: block;
 }
 
 
 #prj_btn:hover {
     background-image: url(../images/projekte_button_active2.png);
-    height: 50px;  
+    height: 50px;
     width: 50px;
     border-radius: 100%;
     border-style: none;
     position: absolute;
     right: 24px;
-    bottom: -15px; 
+    bottom: -15px;
 }
 
 /* Links Stellenausschreibung inaktiv */
@@ -329,15 +329,17 @@ h4.title.h3_beschreibung {
     padding: 13em 0;
 }
 
+a:hover {
+    color:  #88422e;
+}
 
 #Philosophie{
-
     height: 708px;
     width: 100%;
     padding-top: 10em;
     margin: 0 0;
     background: rgb(136,66,46); /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(136,66,46,1) 20%, rgba(173,113, 89,1) 50%, rgba(136,66,46,1) 80%); /* FF3.6-15 */  
+    background: -moz-linear-gradient(-45deg, rgba(136,66,46,1) 20%, rgba(173,113, 89,1) 50%, rgba(136,66,46,1) 80%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, rgba(136,66,46,1) 20%,rgba(173,113, 89,1) 50%,rgba(136,66,46,1) 80%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, rgba(136,66,46,1) 20%,rgba(173,113, 89,1) 50%,rgba(136,66,46,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88422e', endColorstr='#8c4733',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
@@ -358,7 +360,7 @@ h4.title.h3_beschreibung {
 }
 
 #Kontakt{
-    margin: 15em auto;
+    margin: 12em auto;
     padding: 1em;
     width: 100%;
     max-width: 1280px;
@@ -401,7 +403,6 @@ h4.title.h3_beschreibung {
 }
 
 
-
 .btn-default {
     color: rgba(133, 66, 44, 1);
     background: rgba(133, 66, 44, 1);
@@ -441,7 +442,6 @@ h4.title.h3_beschreibung {
 #logo_platzhalter{
     width: 192px;
     height: 50px;
-
 }
 
 .navbar-nav.navbar-right {
@@ -455,9 +455,8 @@ h4.title.h3_beschreibung {
 
  li.nav-item {
         text-align: center !important;
-        
         display: block;
-       
+
     }
  @media (max-width: 1000px){
     .navbar .navbar-nav .nav-link {
@@ -466,11 +465,6 @@ h4.title.h3_beschreibung {
         display: block;
     }
 }
-}
-
-.nav-item active {
-    color: rgba(136, 66, 46, 1);
-  
 }
 
 .starter-template {
@@ -482,11 +476,16 @@ h4.title.h3_beschreibung {
     font-family: Rajdhani, 300, sans-serif;
 }
 
+a .nav-link .page-scroll{
+  padding-bottom: 12px;
+  overflow: visible;
+}
 
 .navbar {
     background-color: #ffffff;
     position: fixed;
     margin: auto;
+    padding-bottom: 0;
 }
 
 
@@ -500,7 +499,7 @@ h4.title.h3_beschreibung {
 
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
-    color: #b18375;
+
     cursor: pointer;
 }
 .navbar-brand{
@@ -510,33 +509,37 @@ h4.title.h3_beschreibung {
 }
 
 .navbar .navbar-text {
-    color: #b18375;
     border-style: none;
 }
 
 .navbar-right{
     float: right;
     text-align: right;
-    
+
 }
 
 .navbar .navbar-nav .nav-link {
-    transition: color 0.5s;
-    transition: border-bottom 0.5s;
     cursor: pointer;
-    border-bottom: 2px solid #fff;
+    border-bottom: 3px solid #fff;
     float: right;
-    color: #b18375;
     margin: 0 0.25em;
+    transition: 0.6s;
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
 
 
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
-    border-bottom: 2px solid #b18375;
-    border-image: linear-gradient(to left, rgba(136,66,46,1) 20%, rgba(173,113, 89,1) 50%, rgba(136,66,46,1) 80%); /* FF3.6-15 */  
-    background: -webkit-linear-gradient(rgba(136,66,46,1) 20%,rgba(173,113, 89,1) 50%, rgba(136,66,46,1) 80%);
-    color: white;
+    transition: 0.3s;
+    color: #88422e;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to left, rgba(136,66,46,1)5%, #cf9883 50%, rgba(136,66,46,1))95% 10; /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(to right rgba(136,66,46,1) 50%,rgba(173,113, 89,1) 50%, rgba(136,66,46,1)); */
+    -webkit-border-image:
+      -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1;
+      border-image: linear-gradient(to left, rgba(136,66,46,1)5%, #cf9883 50%, rgba(136,66,46,1))95% 10;
+
 }
 
 
@@ -547,18 +550,16 @@ h4.title.h3_beschreibung {
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
     color: #b18375;
-    background-color: #ffffff;
-
+    background-color: #000000;
 }
 
 .navbar .navbar-toggler {
-    border-color: rgba(173,113, 89,1);
-
-
+  border-image: linear-gradient(to left, rgba(136,66,46,1), rgba(173,113, 89,1), rgba(136,66,46,1)) 10;
 }
 
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
+  border-image: linear-gradient(to left, rgba(136,66,46,1), rgba(173,113, 89,1), rgba(136,66,46,1)) 10;
     background-color: #ffffff;
     color: rgba(173,113, 89,1)
 }
@@ -602,7 +603,7 @@ h4.title.h3_beschreibung {
     position: absolute;
     right: 2em;
     top: 0.5em;
-    border-color: #b18375;
+
     z-index: 1;
     }
 
@@ -706,7 +707,7 @@ h4.title.h3_beschreibung {
 }
 
 #Kontakt{
-    
+
     min-width: 295px;
     padding: 4em 2em;
 }
@@ -754,7 +755,7 @@ p#link_rechts2 {
     display: block;
     margin: 0 auto;
     position: relative;
-    
+
 }
 
 .text-right2.col-xs-11{
@@ -764,7 +765,20 @@ p#link_rechts2 {
     width: 9em;
 }
 
+.panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: right;
+    content:"\f067";
+}
 
+#Kontakt h2{
+  padding-top: 0px;
+}
 #trennlinie_kontakte{
     border-left: 2px solid lightgrey; /*ister 2 here as default*/
     padding-left: 2em;
@@ -1261,4 +1275,27 @@ template {
 
 [hidden] {
   display: none;
+}
+
+
+.navbar-toggler-icon {
+  background: #fff!important;
+}
+
+.navbar-toggler-icon .fa:before {
+  color: #b87c67;
+font-size: 29px;
+
+
+}
+
+.navbar .navbar-toggler {
+  border: 0 none!important;
+}
+
+/* von main.js mit clicked aufgerufen */
+
+.navbar .clicked {
+  border-bottom: 3px solid red!important;
+
 }
